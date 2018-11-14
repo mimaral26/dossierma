@@ -1,0 +1,29 @@
+<?php
+// Afficher le contenu de $tirage pour s'aider
+var_dump($tableau);
+?>
+
+<!<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Loterie </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="loterie.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1> Résultats du loto</h1>
+    <table>
+        <tr>
+            <td><?= $tableau[0]; ?></td>
+            <td><?= $tableau[1]; ?></td>
+            <td><?= $tableau[2]; ?></td>
+            <td><?= $tableau[3]; ?></td>
+            <td><?= $tableau[4]; ?></td>
+            <td><?= $tableau[5]; ?></td>
+        </tr>    
+    </table>
+</body>
+</html>
